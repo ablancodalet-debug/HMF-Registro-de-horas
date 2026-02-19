@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html lang="es" class="h-full overflow-hidden">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+  <title>Taller Grúas - Registro de Horas</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    /* Prevent text selection and overscroll to feel more like a native app */
+    body {
+      -webkit-tap-highlight-color: transparent;
+      user-select: none;
+      overscroll-behavior-y: none;
+      touch-action: pan-y;
+      font-family: Arial, Helvetica, sans-serif; /* Tipografía tipo Arial solicitada */
+    }
+    .custom-scrollbar::-webkit-scrollbar {
+      width: 8px;
+    }
+    .custom-scrollbar::-webkit-scrollbar-track {
+      background: transparent;
+    }
+    .custom-scrollbar::-webkit-scrollbar-thumb {
+      background: #cbd5e1;
+      border-radius: 10px;
+    }
+    .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+      background: #94a3b8;
+    }
+  </style>
+<script type="importmap">
+{
+  "imports": {
+    "react/": "https://esm.sh/react@^19.2.4/",
+    "react": "https://esm.sh/react@^19.2.4",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.4/",
+    "xlsx": "https://esm.sh/xlsx@^0.18.5"
+  }
+}
+</script>
+</head>
+<body class="bg-slate-100 text-slate-900 h-full overflow-hidden antialiased">
+  <div id="root" class="h-full w-full"></div>
+</body>
+</html>
